@@ -19,6 +19,10 @@ android {
     }
 
     buildTypes {
+        debug {
+            applicationIdSuffix = ".slidertest"
+            versionNameSuffix = "-slider-test"
+        }
         release {
             isMinifyEnabled   = true
             isShrinkResources = true
